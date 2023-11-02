@@ -1,0 +1,16 @@
+WE assets/west.png
+SO assets/south.png
+EA assets/east.png
+NO assets/north.png
+
+F 146, 109, 39
+C 135, 206, 235
+
+1111111
+100S001
+1111111
+      
+1111111
+1000001
+1111111
+

@@ -1,0 +1,35 @@
+PRINT MAP
+
+int i = 0;
+int j = 0;
+printf("\n");
+while (i < cub->map->height - 1)
+{
+    j = 0;
+    while (j < cub->map->width)
+    {
+    printf("%c", cub->map->map[i][j]);
+        j++;
+    }
+    printf("\n");
+    i++;
+}
+
+int i = 0;
+int j = 0;
+printf("\n");
+while (i < cub->map->height - 1)
+{
+    j = 0;
+    while (j < (int)ft_strlen(new_map[i]))
+    {
+    printf("%c", new_map[i][j]);
+        j++;
+    }
+    printf("\n");
+    i++;
+}
+
+printf("cub->map->height = %d\n", cub->map->height);
+printf("cub->map->width = %d\n", cub->map->width);
+printf("longeur derniere ligne = %ld\n", ft_strlen(new_map[cub->map->height - 1]));
